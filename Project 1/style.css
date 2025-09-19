@@ -1,0 +1,138 @@
+
+    body {
+        margin: 0;
+        /* remove default margin */
+        padding: 0;
+        height: 100vh;
+        /* full viewport height */
+        background-image: url("img/bg.jpg");
+        background-size: cover;
+        /* make it cover entire area */
+        background-position: center;
+        /* keep it centered */
+        background-repeat: no-repeat;
+        /* prevent tiling */
+        color: aliceblue;
+        font-family: 'Baloo Bhai', 'Segoe UI', Tahoma, Verdana, sans-serif;
+        font-size: 22px;
+
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 6px;
+        left: 22px;
+    }
+
+    .left img {
+        width: 92px;
+        margin: -5px 39px;;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+        margin: 10px auto;
+        line-height: 0px;
+        font-size: 25px;
+        
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 50%;
+        margin: -28px auto;
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        top: -12px;
+        right: 34px;
+
+        display: inline-block;
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-family: 'Baloo Bhai', 'Segoe UI', Tahoma, Verdana, sans-serif;
+        font-size: 22px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 17px 13px;
+        font-family: 'Baloo Bhai', 'Segoe UI', Tahoma, Verdana, sans-serif;
+        font-size: 22px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: none;
+        color: gray;
+        padding: 17px 13px;
+    }
+
+    .btn {
+        margin: 42px 10px;
+
+        color: white;
+        background-color: black;
+        border: 2px solid gray;
+        padding: 4px 13px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai', 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(140, 139, 139);
+    }
+
+    .container {
+        /* border: 2px solid rgb(255, 255, 255); */
+        margin: 75px 81px;
+        padding: 52px 72px;
+        border-radius: 10px;
+        width: 40%;
+        background: #00000063
+    }
+
+    #heading {
+        padding: 2px 2px;
+        margin: 2px 2px;
+        text-align: center;
+        font-size: 33px;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        /* border: 2px solid black; */
+        margin: 11px auto;
+        border-radius: 12px;
+        font-size: 25px;
+        font-family: 'Baloo Bhai', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+
+    .container button {
+        display: block;
+        width: 500px;
+        margin: 12px auto;
+    }
